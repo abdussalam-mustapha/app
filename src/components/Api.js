@@ -6,7 +6,7 @@ import "./api.css"
 import avi from "../img/av3.png"
 import { useEffect } from 'react';
 
-const Practice = () => {
+const Api = () => {
 
    const [todos, setTodos] = useState(null)
  
@@ -47,4 +47,4 @@ const Practice = () => {
   )
 }
 
-export default Practice;
+export default Api;
