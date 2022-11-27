@@ -1,17 +1,23 @@
 import React from "react";
-import * as ReactRouter from 'react-router-dom';
+
+import BuyNow from "./components/BuyNow"
+import Header from "./components/Header"
 
 import "./App.css"
+import Footer from "./components/Footer";
 
-import Api from "./components/Api";
-import Apitext from "./components/Apitext";
+// import Api from "./components/Api";
+// import Apitext from "./components/Apitext";
 
 
 function App() {
   return (
     <div className= "App">
-    <Apitext />
-    <Api />
+      <Header />
+      <BuyNow />
+      <Footer />
+    {/* <Apitext />
+    <Api /> */}
     </div>
   );
 }

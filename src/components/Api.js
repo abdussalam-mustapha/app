@@ -8,7 +8,12 @@ import { useEffect } from 'react';
 
 const Api = () => {
 
+  
    const [todos, setTodos] = useState(null)
+
+   axios.get("").then(() => {
+    
+   })
  
 
 
